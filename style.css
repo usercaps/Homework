@@ -16,12 +16,18 @@
     color: darkmagenta;
     font-size: 150%;
 }
-.laudantium{
-
+.ul-one{
+    list-style: none;
 }
-.voluptas{
-
+.ul-one > li:before {content: '§ ';
 }
-.perspiciatis{
-
+.ul{
+    list-style: none;
+}
+.ul > li:before {content: '·';
+}
+.ul-two{
+    list-style: none;
+}
+.ul-two > li:before {content: 'o';
 }
